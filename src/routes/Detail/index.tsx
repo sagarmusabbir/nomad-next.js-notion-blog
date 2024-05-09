@@ -1,4 +1,4 @@
-import useMermaidEffect from "./hooks/useMermaidEffect"
+// import useMermaidEffect from "./hooks/useMermaidEffect"
 import PostDetail from "./PostDetail"
 import PageDetail from "./PageDetail"
 import styled from "@emotion/styled"
@@ -8,7 +8,7 @@ type Props = {}
 
 const Detail: React.FC<Props> = () => {
   const data = usePostQuery()
-  useMermaidEffect()
+  // useMermaidEffect()
 
   if (!data) return null
   return (

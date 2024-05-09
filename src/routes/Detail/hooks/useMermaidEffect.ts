@@ -1,28 +1,28 @@
-import { useEffect } from "react"
-import mermaid from "mermaid"
+// import { useEffect } from "react"
+// import mermaid from "mermaid"
 
-const useMermaidEffect = () => {
-  useEffect(() => {
-    mermaid.initialize({
-      startOnLoad: true,
-    })
-    if (!document) return
-    const elements: HTMLCollectionOf<Element> =
-      document.getElementsByClassName("language-mermaid")
-    if (!elements) return
+// const useMermaidEffect = () => {
+//   useEffect(() => {
+//     mermaid.initialize({
+//       startOnLoad: true,
+//     })
+//     if (!document) return
+//     const elements: HTMLCollectionOf<Element> =
+//       document.getElementsByClassName("language-mermaid")
+//     if (!elements) return
 
-    for (let i = 0; i < elements.length; i++) {
-      mermaid.render(
-        "mermaid" + i,
-        elements[i].textContent || "",
-        (svgCode: string) => {
-          elements[i].innerHTML = svgCode
-        }
-      )
-    }
-  }, [])
+//     for (let i = 0; i < elements.length; i++) {
+//       mermaid.render(
+//         "mermaid" + i,
+//         elements[i].textContent || "",
+//         (svgCode: string) => {
+//           elements[i].innerHTML = svgCode
+//         }
+//       )
+//     }
+//   }, [])
 
-  return
-}
+//   return
+// }
 
-export default useMermaidEffect
+// export default useMermaidEffect
