@@ -12,8 +12,12 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `My Creation`,
-      href: "https://github.com/sagarmusabbir?tab=projects",
+      name: `Third Bracket Solution`,
+      href: "https://thirdbracket.co.uk",
+    },
+    {
+      name: `NoMad Gang`,
+      href: "https://nomadgang.co.uk",
     },
   ],
   // blog setting (required)
