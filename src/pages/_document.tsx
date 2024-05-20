@@ -38,6 +38,8 @@ class MyDocument extends Document {
             </>
           )}
         </Head>
+        {/* Google tag (gtag.js) */}
+
         <body>
           <Main />
           <NextScript />
