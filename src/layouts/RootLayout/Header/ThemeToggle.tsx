@@ -14,7 +14,7 @@ const ThemeToggle: React.FC<Props> = () => {
 
   return (
     <StyledWrapper onClick={handleClick}>
-      <Emoji>{scheme === "light" ? "⚪️" : "⚫️"}</Emoji>
+      <Emoji>{scheme === "light" ? "◉" : "❍"}</Emoji>
     </StyledWrapper>
   )
 }
