@@ -10,7 +10,7 @@ const ProfileCard: React.FC<Props> = () => {
   return (
     <StyledWrapper>
       <div className="title">
-        <Emoji>🎧</Emoji> Profile
+        <Emoji>⌨️</Emoji> Profile
       </div>
       <div className="content">
         <div className="top">
@@ -62,7 +62,7 @@ const StyledWrapper = styled.div`
       .name {
         font-size: 1.25rem;
         line-height: 1.75rem;
-        font-style: italic;
+        // font-style: italic;
         font-weight: 700;
       }
       .role {
